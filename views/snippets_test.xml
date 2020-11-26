@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<!-- <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
   <data>
 
@@ -58,4 +58,4 @@
          "Feature" (//div[@id='snippet_feature']), and "Effect" (//div[@id='snippet_effect']) -->
 
   </data>
-</odoo>
+</odoo> -->

@@ -8,7 +8,7 @@
             'views/layout.xml',
             'views/pages.xml',
             'views/assets.xml',
-            'views/snippets_test.xml'   
+            'views/snippets.xml'   
          ],
   'category': 'Theme/Creative',
   'depends': ['base','website', 'website_sale','sale_management'],
