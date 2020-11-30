@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
   <template id="mystyle" name="My style" inherit_id="website.assets_frontend">
+  <!-- take my style file and place it after the last link in the list of the assets -->
       <xpath expr="link[last()]" position="after">
-          <link href="theme_tutorial/static/less/style.less" rel="stylesheet" type="text/less"/>
+          <link href="theme_tutorial/static/less/style.scss" rel="stylesheet" type="text/scss"/>
       </xpath>
   </template>
 
   <template id="my_js" inherit_id="website.assets_editor" name="My Js">
     <xpath expr="script[last()]" position="after">
-      <script type="text/javascript" src="theme_tutorial/static/src/js/editor.js" />
+      <script type="text/javascript" src="theme_tutorial/static/src/js/tutorial_editor.js" />
     </xpath>
   </template>
 </odoo>

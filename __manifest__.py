@@ -8,9 +8,10 @@
             'views/layout.xml',
             'views/pages.xml',
             'views/assets.xml',
-            'views/snippets.xml'   
+            'views/snippets.xml',
+            'views/options.xml'   
          ],
   'category': 'Theme/Creative',
-  'depends': ['base','website', 'website_sale','sale_management'],
+  'depends': ['website'],
   'installable': True
 }
