@@ -21,10 +21,7 @@
                         </ul>
 
                         <!-- === Snippets' area === -->
-                        <div class="oe_structure">
-                            <t t-call="website.snippets">
-                            </t>
-                        </div>
+                        <div class="oe_structure"/>
                     </div>
                 </div>
             </t>
