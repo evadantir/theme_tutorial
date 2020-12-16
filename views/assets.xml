@@ -7,6 +7,7 @@
       </xpath>
   </template>
 
+  <!-- template to refering JS assets for website (inheriting website.assets_editor -->
   <template id="my_js" inherit_id="website.assets_editor" name="My Js">
     <xpath expr="script[last()]" position="after">
       <script type="text/javascript" src="theme_tutorial/static/src/js/tutorial_editor.js" />

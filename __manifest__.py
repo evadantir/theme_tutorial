@@ -9,7 +9,9 @@
             'views/pages.xml',
             'views/assets.xml',
             'views/snippets.xml',
-            'views/options.xml'   
+            'views/options.xml',
+            'views/form_snippet.xml',
+            'views/inherit_model.xml'   
          ],
   'category': 'Theme/Creative',
   'depends': ['website'],
